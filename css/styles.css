@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Arial', sans-serif;
+    /* background-color: #EFECE7;  */
+    /* color:#5A6175; */
+}
+
+
+
+a{
+    color:inherit;
+}
+
+ul {
+
+    margin-block-start:0px;
+    margin-block-end:0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none;
+}
+
+li {
+    margin:0 !important;
+}
+
+nav {
+    display:flex !important;
+    padding-right:5%;
+    padding-left:5%;
+    margin:auto;
+    justify-content: space-between;
+    align-self: center;
+    align-content:center;
+    font-weight:400;
+    padding-top:50px;
+
+}
+
+.nav-links {
+    display: flex;
+    background-color:inherit;  
+    font-size:14px;
+}
+
+.nav-links li:nth-child(1) {
+    margin: 0 0 0 10px !important;
+    
+}
+
+
+.nav-links li:nth-child(2) {
+    margin: 0 20px 0 20px !important;
+}
+
+h1{
+font-weight: 900;
+font-size: 72px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.left{
+    float: left;
+    width: 30%;
+}
+
+.right
+{
+    float:right;
+    width: 70%;
+}
+
+.cardi{
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.5);
+    flex: 1;
+}
+
+.ass-button {
+    background-color: black;
+    color: white;
+    width: 28%;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    /* box-shadow: 5px 10px #596077; */
+  }
+
+  .ass-button:hover {
+    background-color:white;
+    outline: 1px solid black;
+    color: black;
+  }
+
+.ass-button p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.intro{
+    margin-top: 10%;
+}
+
+.intro .desc{
+    padding-top: 2%;
+}
+
+.ass{
+    margin-top: 20px;
+    /* padding: 50px; */
+    height: 200px;
+    /* background-color: aqua; */
+    outline: 1px solid black;
+    text-align: right;
+    padding-top: 90px;
+}
+
+.ass:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in;
+}
+
+.titaly {
+    text-align: center;
+}
+
+
+
+
+footer{
+	height:200px;
+    background-color: black;
+    color:white;
+	margin-top:100px;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}

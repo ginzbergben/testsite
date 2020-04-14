@@ -3,146 +3,176 @@
 body{
     font-family: 'Arial', sans-serif;
     /* background-color: #EFECE7;  */
-    /* color:#5A6175; */
+    font-size: 18px;
 }
 
-
+.container{
+    /*background-color: blueviolet;*/
+}
 
 a{
     color:inherit;
 }
 
-ul {
+a:hover{
+    color: #FFFFFF;
 
-    margin-block-start:0px;
-    margin-block-end:0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    list-style-type: none;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: black;
+    text-decoration: none;
 }
+
+
+ ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
 li {
     margin:0 !important;
 }
 
-nav {
-    display:flex !important;
-    padding-right:5%;
-    padding-left:5%;
-    margin:auto;
-    justify-content: space-between;
-    align-self: center;
-    align-content:center;
-    font-weight:400;
-    padding-top:50px;
+ul li {
+    display: inline;
+}
+
+.right-side {
+    float: right;
+}
+
+.introblurb{
 
 }
 
-.nav-links {
-    display: flex;
-    background-color:inherit;  
-    font-size:14px;
+.introblurb p{
+font-size: 36px;
+text-transform: lowercase;
+margin-top: 5%;
+margin-bottom: 5%;
 }
 
-.nav-links li:nth-child(1) {
-    margin: 0 0 0 10px !important;
+.pbutt{
+    margin-bottom: 5%;
+}
+
+
+.pbutt:hover{
+    -webkit-filter: invert(200%);
+    filter: invert(200%);
+    transition: filter .2s ease-in-out;
+
+}
+.project-button{
+        padding: 2%;
+        border: 1px solid #000000;
+box-sizing: border-box;
+height: 100%;
+      }
+
+.laff {
+    background: #F8DE5A;
+    background-image: url("../img/laff-thumbnail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
     
 }
 
-
-.nav-links li:nth-child(2) {
-    margin: 0 20px 0 20px !important;
+.wa {
+    background: #3071E8;
+    background-image: url("../img/wa-thumbnail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-h1{
-font-weight: 900;
-font-size: 72px;
+.lts {
+    background: #0075ff;
+    background-image: url("../img/lts-header-pic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-h2{
-    font-weight: 700;
-}
+.project-button p {
+    margin-top: 50%;
+    font-size: 36px;
+    color: #FFFFFF;
 
-h3{
-    font-weight: 600;
-}
-
-.left{
-    float: left;
-    width: 30%;
-}
-
-.right
-{
-    float:right;
-    width: 70%;
-}
-
-.cardi{
-    padding: 2%;
-    border-radius: 20px;
-    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.5);
-    flex: 1;
-}
-
-.ass-button {
-    background-color: black;
-    color: white;
-    width: 28%;
-    padding: 2%;
-    text-align: center;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: black;
     text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2%;
-    /* box-shadow: 5px 10px #596077; */
-  }
+}
 
-  .ass-button:hover {
-    background-color:white;
-    outline: 1px solid black;
+nav {
+    margin:auto;
+    margin-bottom: 5%;
+    font-size: 48px;
+}
+
+
+.laff-image{
+    background: #F8DE5A;
+    background-image: url("../img/laff-thumbnail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.problem{
+    margin-top: 5%;
+}
+
+.research{
+    margin-top: 5%;
+}
+
+.hmw{
+    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.alt-row{
+background-color: #000000;
+color: #FFFFFF;
+}
+
+.test{
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: black;
+}
+
+.test:hover{
+ color: #F8DE5A;
+
+}
+
+.ia-box{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 2%;
+    min-height: 250px;
+font-style: italic;
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.hmw-box{
+    background-color: #fff200;
     color: black;
-  }
+    padding: 2%;
+    margin-right: 2%;
+    /*min-height: 400px;*/
+    font-size: 12px;
+    width: 100%;
 
-.ass-button p{
-    margin-top: auto;
-    margin-bottom: auto;
 }
-
-.intro{
-    margin-top: 10%;
-}
-
-.intro .desc{
-    padding-top: 2%;
-}
-
-.ass{
-    margin-top: 20px;
-    /* padding: 50px; */
-    height: 200px;
-    /* background-color: aqua; */
-    outline: 1px solid black;
-    text-align: right;
-    padding-top: 90px;
-}
-
-.ass:hover{
-    background-color: black;
-    color: white;
-    transition-duration: 0.15s;
-    transition-timing-function: ease-in;
-}
-
-.titaly {
-    text-align: center;
-}
-
-
-
 
 footer{
 	height:200px;
